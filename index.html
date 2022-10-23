@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,6 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
     <div class="header">
@@ -21,10 +19,12 @@
     </div>
 
     <div class="section1">
-        <h1>This website is awesome</h1>
-        <p>The website has some subtext that goes under the main title. It's a smaller font and the colour is lower contrast.</p>
-        <button>Sign up</button>
-        <p>this is a placeholder for an image</p> <!--Should be an image but I don't have one so I'm using a paragraph instead-->
+        <div id="container">
+            <h1 id="hero-text">This website is awesome</h1>
+            <p id="hero-secondary-text">The website has some subtext that goes under the main title. It's a smaller font and the colour is lower contrast.</p>
+            <button class="sign-up" id="first">Sign up</button>
+        </div>
+        <div id="placeholder">this is a placeholder for an image</div> <!--Should be an image but I don't have one so I'm using a div instead-->
     </div>
 
     <div class="section2">
@@ -52,7 +52,7 @@
         <div class="action-box">
             <h3>Call to action! It's time!</h3>
             <p>Sign up for our product by clicking our button right over there!</p>
-            <button>Sign up</button>
+            <button class="sign-up" id="second">Sign up</button>
         </div>
     </div>
 
@@ -61,5 +61,4 @@
     </div>
     
 </body>
-
 </html>
