@@ -11,6 +11,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 0 200px;
+    flex-wrap: wrap;
 }
 
 #header-logo{
@@ -34,6 +35,7 @@ body{
     align-items: center;
     gap: 12px;  
     padding: 100px 200px;
+    flex-wrap: wrap;
 }
 
 .section1#container{
@@ -96,7 +98,8 @@ body{
 
 .images{
     display: flex;
-    gap: 50px
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .image-n-text{
