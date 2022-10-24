@@ -139,3 +139,46 @@ body{
     font-size: 24px;
     font-weight: bolder;
 }
+
+.section4{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-box{
+    width: 800px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.left-side h3{
+    margin: 0;
+    padding: 0;
+}
+
+.left-side p{
+    margin: 0;
+    padding: 0;
+}
+
+.action-box h3, .action-box p{
+    color: #E5E7EB;
+}
+
+.sign-up#second{
+    border-style: solid;
+    border-color: #E5E7EB;
+}
