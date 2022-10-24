@@ -182,3 +182,13 @@ body{
     border-style: solid;
     border-color: #E5E7EB;
 }
+
+.footer{
+    background-color: #1F2937;
+    padding: 20px
+}
+
+.footer p{
+    color:#E5E7EB;
+    text-align: center;
+}
